@@ -3,7 +3,7 @@ name: Build Docker image
 on:
   push:
     branches:
-      - release
+      - arm64-support
 
 jobs:
   build-docker:
